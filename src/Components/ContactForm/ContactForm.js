@@ -36,6 +36,7 @@ class ContactForm extends Component {
             name="name"
             value={this.state.name}
             onChange={this.handleChange}
+            autoComplete="off"
           />
         </label>
 
@@ -46,6 +47,7 @@ class ContactForm extends Component {
             name="number"
             value={this.state.number}
             onChange={this.handleChange}
+            autoComplete="off"
           />
         </label>
 
